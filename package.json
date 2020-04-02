@@ -55,7 +55,7 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged",
-      "pre-push": "lint-staged"
+      "pre-push": "cross-env CI=true yarn test"
     }
   },
   "lint-staged": {
