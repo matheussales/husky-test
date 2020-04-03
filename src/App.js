@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import logo from './logo.svg';
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Angular
         </a>
       </header>
     </div>
